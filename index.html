@@ -57,16 +57,16 @@
     <!-- 開発中は 8.x.x などのバージョンが良いでしょう。最新版はドキュメントで確認してください -->
 
     <script>
-        // Firebaseプロジェクトの設定情報 (Firebaseコンソールからコピーしたもの)
-  const firebaseConfig = {
-    apiKey: "AIzaSyCvSwm_ZL6gvpSvATIa0M3M5uG5mAZ4ltY",
-    authDomain: "number-sum-auth-app.firebaseapp.com",
-    projectId: "number-sum-auth-app",
-    storageBucket: "number-sum-auth-app.firebasestorage.app",
-    messagingSenderId: "799288724303",
-    appId: "1:799288724303:web:e10901ef3712c3360f133a",
-    measurementId: "G-QVQ4JHT6WL"
-  };
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCvSwm_ZL6gvpSvATIa0M3M5uG5mAZ4ltY",
+  authDomain: "number-sum-auth-app.firebaseapp.com",
+  projectId: "number-sum-auth-app",
+  storageBucket: "number-sum-auth-app.firebasestorage.app",
+  messagingSenderId: "799288724303",
+  appId: "1:799288724303:web:e10901ef3712c3360f133a",
+  measurementId: "G-QVQ4JHT6WL"
+};
 
         // Firebaseを初期化
         firebase.initializeApp(firebaseConfig);
